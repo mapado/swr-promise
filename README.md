@@ -1,6 +1,6 @@
 # swr-promise
 
-[![NPM version](https://img.shields.io/npm/v/@mapado/swr-promise.svg?style=flat)](https://npmjs.com/package/swr-promise)
+[![NPM version](https://img.shields.io/npm/v/@mapado/swr-promise.svg?style=flat)](https://npmjs.com/package/@mapado/swr-promise)
 [![NPM downloads](http://img.shields.io/npm/dm/@mapado/swr-promise.svg?style=flat)](https://npmjs.com/package/@mapado/swr-promise)
 
 ## Install
