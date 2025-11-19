@@ -1,7 +1,8 @@
 # swr-promise
 
-[![NPM version](https://img.shields.io/npm/v/@mapado/swr-promise.svg?style=flat)](https://npmjs.com/package/@mapado/swr-promise)
-[![NPM downloads](http://img.shields.io/npm/dm/@mapado/swr-promise.svg?style=flat)](https://npmjs.com/package/@mapado/swr-promise)
+Implement an equivalent of Cache-Control [stale-while-revalidate](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control#stale-while-revalidate) directive:
+
+This package does cache the result of a promise and keep it in cache for a given `maxAge`. If the promise is called once again, then the cache value is returned. If the cache is stale, then the cache is still served during the `swr` time, but the promise is called in background.
 
 ## Install
 
